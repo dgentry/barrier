@@ -562,6 +562,10 @@ ServerApp::startServer()
 
     double retryTime;
     ClientListener* listener = NULL;
+
+    LOG((CLOG_PRINT "Hello Dad, I'm in Jail!\n"));
+    LOG((CLOG_ERR "I like it here!  In Jail!\n"));
+
     try {
         auto listenAddress = args().m_config->getBarrierAddress();
         auto family = family_string(ARCH->getAddrFamily(listenAddress.getAddress()));

@@ -53,7 +53,9 @@ main(int argc, char** argv)
     EventQueue events;
 
     ServerApp app(&events, createTaskBarReceiver);
+    printf("Holy Jeebus\n");
     int result = app.run(argc, argv);
+    printf("Holy Jeebus %d\n", result);
 #if SYSAPI_WIN32
     if (IsDebuggerPresent()) {
         printf("\n\nHit a key to close...\n");
