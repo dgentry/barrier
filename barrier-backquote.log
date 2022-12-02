@@ -1,0 +1,37 @@
+
+[2022-07-27T20:28:38] DEBUG1: recv key down id=0x0000ef2a, mask=0x0000, button=0x0033
+[2022-07-27T20:28:38] DEBUG1: mapKey ef2a (61226) with mask 0000, start state: 2000
+[2022-07-27T20:28:38] DEBUG1: find best:  2000 0000
+[2022-07-27T20:28:38] DEBUG1: best key index 1 of 1 (exact)
+[2022-07-27T20:28:38] DEBUG1: found key in group 0
+[2022-07-27T20:28:38] DEBUG1: state: 2000,0000,0000
+[2022-07-27T20:28:38] DEBUG1: flip: 0000 (2000 vs 0000 in 0000 - 0000)
+[2022-07-27T20:28:38] DEBUG1: desired state: 0000 2000,0000,0000
+[2022-07-27T20:28:38] DEBUG1: flip: 0000 (2000 vs 0000 in ffff - 6020)
+[2022-07-27T20:28:38] DEBUG1: mapped to 05f, new state 2000
+[2022-07-27T20:28:38] DEBUG1: keystrokes:
+[2022-07-27T20:28:38] DEBUG1:   05f (000000f3) down
+[2022-07-27T20:28:39] DEBUG1: recv key up id=0x00000000, mask=0x0000, button=0x0033
+[2022-07-27T20:28:39] DEBUG1: keystrokes:
+[2022-07-27T20:28:39] DEBUG1:   05f (000000f3) up
+
+
+
+[2022-07-27T20:28:46] DEBUG1: recv key down id=0x00000071, mask=0x0000, button=0x000d
+[2022-07-27T20:28:46] DEBUG1: mapKey 0071 (113) with mask 0000, start state: 2000
+[2022-07-27T20:28:46] DEBUG1: find best:  2000 0000
+[2022-07-27T20:28:46] DEBUG1: best key index 1 of 2 (exact)
+[2022-07-27T20:28:46] DEBUG1: found key in group 0
+[2022-07-27T20:28:46] DEBUG1: state: 2000,0000,1007
+[2022-07-27T20:28:46] DEBUG1: flip: 0000 (2000 vs 0000 in 1007 - 0000)
+[2022-07-27T20:28:46] DEBUG1: desired state: 0000 2000,0000,1007
+[2022-07-27T20:28:46] DEBUG1: flip: 0000 (2000 vs 0000 in eff8 - 6020)
+[2022-07-27T20:28:46] DEBUG1: mapped to 010, new state 2000
+[2022-07-27T20:28:46] DEBUG1: keystrokes:
+[2022-07-27T20:28:46] DEBUG1:   010 (00000051) down
+[2022-07-27T20:28:46] DEBUG1: recv key up id=0x00000000, mask=0x0000, button=0x000d
+[2022-07-27T20:28:46] DEBUG1: keystrokes:
+[2022-07-27T20:28:46] DEBUG1:   010 (00000051) up
+[2022-07-27T20:28:49] DEBUG1: recv mouse down id=1
+[2022-07-27T20:28:49] DEBUG1: recv mouse up id=1
+[2022-07-27T20:28:52] DEBUG1: recv mouse down id=
